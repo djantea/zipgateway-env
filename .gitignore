@@ -1,3 +1,4 @@
 /zipgateway-source/*/usr/**/*
 /bin/*
 !/bin/.keep
+/.vscode/*

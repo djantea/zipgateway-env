@@ -20,6 +20,10 @@ case $1 in
      ${SCRIPTS_DIR}/compile.sh $2
      ;;
 
+   "clean")
+     ${SCRIPTS_DIR}/clean.sh $2
+     ;;
+
    *)
      echo "Invliad command"
      ;;
